@@ -1,0 +1,11 @@
+[package]
+name = "SocialMediaV11"
+version = "0.0.1"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
+
+[addresses]
+std =  "0x1"
+addr = "0x116937f3f1cf778efb0c6c4315e8e0bbb3be6fa3e6430192f7f2b0cba30c8976"
+
